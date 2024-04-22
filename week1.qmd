@@ -1,89 +1,38 @@
 ---
-title: "Studying for a dissertation"
-#subtitle: "⚔<br/>with xaringan"
-author: "Andy MacLachlan"
-output:
-  xaringan::moon_reader:
-    css: ["custom.css", "default", "rladies", "rladies-fonts"]    
-    lib_dir: libs
-    includes:
-      in_header: [assets/header.html]
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-    seal: false
+title: "How to Write a Dissertation"
+author: "Jon Reades & Andy MacLachlan"
+format:
+  revealjs:
+    theme: default
+  html:
+    embed-resources: true
+#jupyter: python3
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
 
-```{r xaringan-all, echo=FALSE}
-library(countdown)
-library(xaringan)
-library(xaringanExtra)
-library(knitr)
+## Steps
 
-hook_source <- knitr::knit_hooks$get('source')
-knitr::knit_hooks$set(source = function(x, options) {
-  x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
-  hook_source(x, options)
-})
-
-xaringanExtra::use_broadcast()
-xaringanExtra::use_freezeframe()
-xaringanExtra::use_scribble()
-#xaringanExtra::use_slide_tone()
-xaringanExtra::use_search(show_icon = TRUE)
-xaringanExtra::use_freezeframe()
-xaringanExtra::use_clipboard()
-xaringanExtra::use_tile_view()
-xaringanExtra::use_panelset()
-xaringanExtra::use_editable(expires = 1)
-xaringanExtra::use_fit_screen()
-xaringanExtra::use_extra_styles(
-  hover_code_line = TRUE,         
-  mute_unhighlighted_code = TRUE  
-)
-```
-
-class: inverse, center, title-slide, middle
-
-<style>
-.title-slide .remark-slide-number {
-  display: none;
-}
-</style>
-
-```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
-library(fontawesome)
-```
-
-# Studying for a dissertation
-
-### Andy MacLachlan
-
-### 14/04/2021 (updated: `r format(Sys.time(), "%d/%m/%Y")`)
-
-`r fa("paper-plane", fill = "white")`[a.maclachlan@ucl.ac.uk](mailto:a.maclachlan@ucl.ac.uk)
-`r fa("twitter", fill = "white")`[andymaclachlan](https://twitter.com/andymaclachlan)
-`r fa("github", fill = "white")`[andrewmaclachlan](https://github.com/andrewmaclachlan)
-`r fa("map-marker", fill = "white")`[Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)
-
-<a href="https://github.com/andrewmaclachlan" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+::: {.incremental}
+1. Planning
+2. Reading the field
+3. Reading the methods
+4. Summarising
+5. Analysing
+6. Repeating
+:::
 
 ---
-# Lecture Outline
 
-Aim: How to effectively study for a dissertation
+![Dissertation Research in Education: Process](img/research_process_2.jpg)
 
-.pull-left[
+::: {style="font-size: 25%;"}
+Source: [mc.libguides.com/eddoc/research](https://mc.libguides.com/eddoc/research)
+:::
 
-Outcomes (at the end of this lecture you should be able to...)
+# Planning
 
-* **Part 1**: Set yourself up for a dissertation 
-
+::: {.notes}
+* **Part 1**: Set yourself up for success 
 * **Part 2**: Write:
   * introductions
   * literature reviews 
@@ -91,151 +40,88 @@ Outcomes (at the end of this lecture you should be able to...)
   * discussions
   * conclusions
   * tips
-  
 * **Part 3**: Use research language in relation to your thesis 
-
 * **Part 4**: Plan your project 
-]
+:::
 
-.pull-right[
+## Set (your) expectations 
 
-```{r echo=FALSE, out.width='80%', fig.align='center'}
-knitr::include_graphics("img/research_process_2.jpg")
-```
+What is your ultimate **goal**?
 
-.small[Source: [Dissertation Research in Education: Research Process](https://mc.libguides.com/eddoc/research)
-]
-]
----
+- What you want to do after your degree?
+- What skills do think you might need do it?
+- What mark do you need to achieve it?
+- How hard do you want to work to achieve it?
+- How can your dissertation demonstrate progress towards it?
 
-# How to use the lectures
+You cannot expect a mark of 70% on effort of 30%.
 
-- Slides are made with [xaringan](https://slides.yihui.org/xaringan/#1) `r emo::ji("speak")` shar-in-gen or [ʃæ.ˈriŋ.gæn]
+## Set yourself up for success 
 
-- `r fa("search")` In the bottom left there is a search tool which will search all content of presentation
+![](img/phdwrite.gif)
 
-- Control + F will also search 
+## Start anywhere...<br />just make sure you start!
 
-- Press enter to move to the next result 
+- *How* do you work best?
+- *Where* do you work best?
+- *When* do you work best?
+- *What* tools allow you to do your best work?
+- *What* do you know already?
 
-- `r fa("pencil-alt")` In the top right let's you draw on the slides, although these aren't saved.
+--- 
 
-- Pressing the letter `o` (for overview) will allow you to see an overview of the whole presentation and go to a slide
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2>Writing is a *habit*.</h2>
+:::
 
-- Alternatively just typing the slide number e.g. 10 on the website will take you to that slide
+::: {.notes}
+Writers are a very superstitious lot but what they're actually doing is using routines to prepare for the act of writing. You don't show up at the starting line expecting to run a marathon having not gotten off the sofa. Why should writing a dissertation be any different? You need to *train*!
+:::
 
-- Pressing alt+F will fit the slide to the screen, this is useful if you have resized the window and have another open - side by side. 
+## What do(n't) you know?
 
-```{r xaringan-logo, echo=FALSE}
-xaringanExtra::use_logo(
-  image_url = "img/casa_logo.jpg"
-)
-```
+It can be easy to list everything you **don't** know or **aren't** good at, so why not focus on:
 
----
+- What interests you?
+- What theories you know?
+- What literature you know / have read?
+- What tools you know?
+- What methods you know?
+- What datasets you know of / can find?
 
-class: inverse, center, middle
+## Make connections!
 
-# **Part 1**: Set yourself up for a dissertation 
+Try to connect up what you *do* know through:
 
----
-class: inverse, center, middle
-
-![writing gif](img/phdwrite.gif)
-
----
-class: inverse, center, middle
-
-# Start somewhere...anywhere, but make sure you start
-
----
-
-# What do(n't) you know?
-
-It's easy to list everything you **don't know or aren't good at**
-
-.pull-left[
-
-**Focus on and list:**
-
-- What methods you know
-
-- What literature you know / have read
-
-- What theories you know
-
-- What tools you know
-
-- What datasets you know of / can find
-
-- What you are interested in
-]
-
---
-
-.pull-right[
-**Once you have that the link them together:**
-
-- Mind map
-
-- Miro board
-
-- Trello board
-
+- A mind map
+- A Miro board
+- A Trello board
+- Bullet points
 - Literature review or summary
 
-]
+## Set your (reader's) expectations
 
---
+Most papers and dissertations follow this structure:
 
-.center[
-**Who agrees and disagrees, where, why, when, what has changed = your story**
-]
+- Introduction
+- Literature Review 
+- Methodology & Data
+- Analysis/Results
+- Discussion/Conclusion
 
----
-class: inverse, center, middle
+::: {.notes}
 
-![](https://media.giphy.com/media/XyaQAnihoZBU3GmFPl/giphy.gif)
+By convention, you don't introduce new literature in the Discussion or Conclusion, and you don't introduce each methodology *while* doing the analysis. It *is* possible to deviate from this structure when the need arises, but be prepared for pushback if you do!
 
----
+:::
 
-# Set expectations 
+## The first half...
 
-What do you want to gain from the dissertation and what is your end **GOAL** to the degree?
-
-.pull-left[
-
-Tell you supervisor: 
-
-* What you want to do after your degree
-
-* What skills you think you might need
-
-* Ask them what they think
-
-]
-
---
-
-.pull-right[
-**THEN** 
-
-* Set up your dissertation to ensure you cover them
-
-* Demonstrate them to your supervisor and the wider world?
-
-* Ask them what they think, from their experience 
-
-]
+![](img/filter.png)
 
 ---
 
-class: inverse, center, middle
-
-# Remember it's *your* project
----
-
-# Read `r fa("book-reader")`
+# Reading the field
 
 Most staff members will say 
 
@@ -243,184 +129,124 @@ Most staff members will say
 
 ... but what does this actually mean and why bother?
 
-Partly, it goes back to what do you want to learn? 
+## Two types of reading
 
-But also there are two "types" of reading:
-
---
-
+::: {.incremental}
 1. Setting the scene reading
-
 2. Technical reading
+:::
 
----
+## Setting the scene reading {.smaller}
 
-# Setting the scene reading
+Broader, often global, challenges, perhaps from a different discipline altogether. Commonly found in journals such as *Science*, *Nature* or (global) policy documents.
 
-This refers to broader, often global challenges, perhaps from a different discipline altogether   
+:::: {.columns}
 
-Journals such as Science, Nature or Global policy documents
-  
-
-.pull-left[  
-
+::: {.column width="50%"}
 **Policy**
   
 * UN Sustainable Development Goals 
-  
 * C40 Cities
-  
 * Sendai disaster risk framework
-  
 * London Plan
-  
 * Johannesburg’s Spatial Development Framework 2040
-
 * New Urban Agenda
-]
+:::
 
-.pull-right[
-
+::: {.column width="50%"}
 **Papers**
 
 * Give cities a seat at the top table, Acuto 2016
-
 * Scientists must have a say in the future of cities, McPherson 2016
-
 * Global science for city policy, Acuto 2018
-
-* A global economic assessment of city policies to
-reduce climate change impacts, Estrada 2017
-
+* A global economic assessment of city policies to reduce climate change impacts, Estrada 2017
 * A unified theory of urban living, Bettencourt 2010
-]
----
-
-# Technical reading
-
-The nitty gritty of the methods you want to apply
-
-* **where**
-* **how**  
-* **why** 
-
-they have been applied  
-
-* **what** has changed through time and across studies that have different data (and methods)
-
---
-
-Some considerations...
-
-  * The specific detail of your study area
-
-  * Perhaps local policy challenges or local geographic challenges 
   
-  * Usually more specialist journals 
-  
-See Cheyne's dissertation section 2.4 or Signe's dissertation section 2.4.2
-  
----
-class: inverse, center, middle
+:::
+:::: 
 
-# In that theme...
+## Technical reading
 
-```{r echo=FALSE, out.width = "400pt", fig.align='center'}
-knitr::include_graphics('img/filter.png') 
-```
----
-class: inverse, center, middle
+The nitty gritty of the methods you want to apply:
 
-# **Part 2**: Write:
-## introductions
-## literature reviews 
-## methodologies
-## discussions
-## conclusions
-## tips
+* Where (e.g. journal, discipline, country, area, etc.)
+* When (e.g. 1960s, 2020s, seasonally, etc.)
+* How (e.g. comparatively, individually, sequentially, etc.)
+* Why (e.g. to compare, to test, to hypothesise, etc.)
 
-#### the following are extracts and don't represent the entire thesis / final grade
----
+Also notice: 
 
-# Writing - introduction
+* What (e.g. what has changed over time and across studies that have different data and methods)
 
-If you look at any paper, they usually start with a broad introduction to the issue they are exploring.
+## Additional considerations...
 
-The introduction will talk about Global challenges:
+* The specific detail of your study area
+* Local policy, socioeconomic, or geographic challenges
+* More specialist journals and 'grey' literature
 
-* Global urban area expansion
+## How to summarise
 
-* Population increase
+You only want to read an article *once*.
 
-* Challenges of sustainability
+# Tell *your* story!
 
-* What is your challenge ? 
+## The introduction
 
---
+A broad introduction to the issue being explored to establish the *relevance* of your research.
+
+Bluntly: why should I read your thesis?
+
+::: {.notes}
 
 Towards the end of the introduction links will be made to specific local case studies / literature
 
-* For example, in the London Plan temperature mitigation is specified but no methodological details are provided
+For example, in the London Plan temperature mitigation is specified but no methodological details are provided
 
 ...in recent years the development of local models to predict temperature has resulted in the potential to actively reform building construction yet....
 
----
+:::
 
-# Start of introduction
+## Introduction #1 {.smaller}
 
->Traffic safety problems are causing incommensurate harm to pedestrians in cities around the world (Bartolomeos et al. 2013). In the United States, 49,340 pedestrians were killed by moving vehicles between 2008 and 2017 (Zaccaro 2019). As walkability becomes more central in the minds of transportation planners, government officials, and citizens due to the corresponding advantages in the realms of health, wealth, and happiness (see section 2.1), it is critical that pedestrian traffic fatalities come to be seen not as inevitable accidents, but as ‘preventable and unacceptable’ occurrences (City of Charlotte DOT 2019, p. 8). Further, it is essential that burgeoning cities like Charlotte, North Carolina, where this study is focused, are able to grow in ways that are both sustainable and appealing. In such places, effectively addressing pedestrian safety and walkability will be one of the keys to future success. Accordingly, this goal is an important component of various global and local policies (see section 2.2).
+> Traffic safety problems are causing incommensurate harm to pedestrians in cities around the world (Bartolomeos et al. 2013). In the United States, 49,340 pedestrians were killed by moving vehicles between 2008 and 2017 (Zaccaro 2019). As walkability becomes more central in the minds of transportation planners, government officials, and citizens due to the corresponding advantages in the realms of health, wealth, and happiness (see section 2.1), it is critical that pedestrian traffic fatalities come to be seen not as inevitable accidents, but as ‘preventable and unacceptable’ occurrences (City of Charlotte DOT 2019, p. 8). Further, it is essential that burgeoning cities like Charlotte, North Carolina, where this study is focused, are able to grow in ways that are both sustainable and appealing. In such places, effectively addressing pedestrian safety and walkability will be one of the keys to future success. Accordingly, this goal is an important component of various global and local policies (see section 2.2).
 
----
+## Introduction #2 {.smaller}
 
-# Start of introduction 2
+> Fire has always been a major unpredictable factor that presents a safety risk to people. Especially in the United Kingdom, which is a country where fires occur frequently. Throughout British history, many large-scale fires have caused irrevocable damage to London. Among them, the most famous fire was the Great Fire of London in 1666 (J. Carlson, 2005)，which lasted for four days before it was completely put out, making 70,000 people homeless and destroying thousands of medieval buildings. However, the only reason for that was a fire in the bakery. This shows that the fire is very contagious. For the government, it is imperative to detect a fire immediately and take corresponding measures as soon as possible.
 
+## Spot the difference(s) 1
 
-> The fire has always been a major unpredictable factor that presents a safety risk to people. Especially in the United Kingdom, which is a country where fires occur frequently. Throughout British history, many large-scale fires have caused irrevocable damage to London. Among them, the most famous fire was the Great Fire of London in 1666 (J. Carlson, 2005) ，which lasted for four days before it was completely put out, making 70,000 people homeless and destroying thousands of medieval buildings. However, the only reason for that was a fire in the bakery. This shows that the fire is very contagious. For the government, it is imperative to detect a fire immediately and take corresponding measures as soon as possible.
-
---
-
-Difference is:
-
-* Specific BUT relevant detail - second one talks about the past then says it's imperative now?  
-* Selling the analysis to us - do fires happen more in the UK? says who? vs...49,340 pedestrians were killed by moving vehicles between 2008 and 2017...reference
+* Specific but *relevant* detail  
+* Selling the relevance of the analysis 
 * Consideration to the viewpoint of the terms..."not as inevitable accidents, but as ‘preventable and unacceptable"
-* Reference to SPECIFIC policy ...later expanded on
+* Reference to *specific* policy ...later expanded on
 
+## End of Introduction #1 {.smaller}
 
----
-
-# End of introduction
 > Ultimately, this study intends to contribute to the field of traffic safety research by further investigating the possibilities for data-driven advocacy for pedestrian needs and solutions. In the words of the visionary Enrique Penalosa, ‘The essence of the conflict today, really, is cars and people...We can have a city that is very friendly to cars, or a city that is very friendly to people. We cannot have both’ (NYC Streets Renaissance 2006).
 
----
-
-# End of introduction 2
+## End of Introduction #2 {.smaller}
 
 > In summary, this article will analyze the fire distribution and causes of fire
 in London considering the time of the fire and the physical location
 through a comprehensive analysis of the establishment of GIS and related
 fire models to propose a suitable fire station location.
 
---
+## Spot the difference(s) 2
 
-Difference is:
+* Contribution and the *why*
+* Not just a *summary*
+* *Sell* it
 
-* Contribution and WHY - pedestrian needs and solutions
+# The literature review
 
-* Compared to stating what will be done in the methods section... rather vaguely.
+What has been done before and what you are hoping to contribute.
 
-* SELL IT
----
-
-# Writing - literature review
-
-What has been done before, write a story and show what you are trying to investigate and contribute.
-
-**What not to do** - that students always do despite how many times i tell them.
+## Literature review 1 {.smaller}
 
 > Jones et al. (2017) found an interesting relationship between tree canopy coverage and heart diseases. They concluded more trees should be planted where there is a higher prevalence of heart disease. Zhang et al. (2014) found no relationship between tree canopy coverage. Smith et al. (2007) showed that trees and lung disease were related. 
 
---
+::: {.notes}
 
 This is just a list. Your job is to tell a story:
 
@@ -431,351 +257,204 @@ This is just a list. Your job is to tell a story:
 * Why do you think that is
 * How can that be applied to your study.
 
----
+:::
 
-# Literature review example
+## Literature review 2 {.smaller}
 
 > According to the World Health Organization, twenty-two percent of all road fatalities each year are pedestrians (Bartolomeos et al. 2013, p. vii). This unsettling statistic can perhaps be attributed to the rapid growth of urban centers, paired with a lack of effort to expand pedestrian facilities (Halais 2020). Indeed, pedestrian safety is a problem all over the world. In cities in sub-Saharan Africa, more than half of all trips occur by foot (Pendakur 2005, p. 10), yet pedestrians are regularly and disproportionately involved in incidents with motor vehicles due to a lack of sufficient walkways, lighting, and other helpful urban design provisions (Halais 2020, Murgu´ıa 2018). 
 
---
-
-Difference is:
+## Spot the difference(s) 3
 
 * It's a story and you are guiding me through it....
-
 * **The literature provides the SUPPORT to the points you make**
-
 * The literature might give you ideas but it doesn't then form the **direct** basis of your writing...it is there backing you up.
 
 ---
 
-class: inverse, center, middle
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2>The literature *supports* the points you make.</h2>
+:::
 
-# **The literature provides the SUPPORT to the points you make**
+# Reading the methods (and data)
 
+Not *just* a sequence of steps:
 
----
-# Writing - methods, results
+- Why *this* method and not *that* one
+- What are the strengths
+- What are the weaknesses
+- How your results might differ/improve/challenge
 
-In the methods the writing usually stays focused on the current study area. It's good to have a few links to Global issues. For example:
-
---
-
-* Whilst the study has used this local data, a Global alternative is x
-
---
-
-* This attempts to provide a methodological basis for use with the Global Sustainable Development Goal, x, y, z
-
---
-
-* The results show x, y, z, **this contrasts to Jones et al. 2017 who exhibited this other trend**
-
-Don't just list your results you want a **sprinkling of literature** throughout. 
-
----
-
-# Methods example
-
-## Provide a high level overview first
+## Methodology example 1 {.smaller}
 
 > The number of crashes were predicted per road segment using the selected negative binomial regression model and the predictions were compared to the true values, again using MAE, MSE, and RMSE. Where an observation was missing data, the required values were imputed using the rfImpute() function (Breiman 2003). The predicted crashes were mapped, with emphasis on the top 1% and top 25% most dangerous roads. Kumfer et al. (2019) used Empirical Bayes estimates to weight the predictions with historical crash data, but this step was omitted here. The authors write that the non-weighted predictions offer ‘a more holistic measure of pedestrian crash risk, given the uncertainty about future crash locations inherent in any crash prediction method’ (Kumfer et al. 2019, p. 427).
 
----
-
-# Methods example 2
-
-## Provide a high level overview first
+## Methodology example 2 {.smaller}
 
 > One of the objectives of this dissertation is to explore the relationship between nutrition, income, and obesity in the MSOA area of London. As regression analysis is the method that allows us to examine the relationship between two or more variables, regression analysis was used here to find the relationship between different factors with obesity (Foley, B, 2018). From the past literature, we can know there was a linear relationship between income, nutrition, physical activities, and obesity. So first we used the least square linear regression analysis to see if there are still linear relationships between influenced factors and obesity in geographic scale
 
---
+## Spot the difference(s) 5
 
-Difference is:
-
-* Despite being a pass this is done well! I supervised both students! 
-
-* Not much difference, good literature support, clear overview.
+* Not much! 
+* Both provide good literature support 
+* Both give a clear overview.
 
 ---
 
-# Results example
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2>Avoid kitchen sink analyses.</h2>
+:::
+
+# Analysing
+
+## The second half...
+
+![](img/filter_norm.png) 
+
+::: {.notes}
+
+This should *mirror* the first half.
+
+- Use a structure that mirrors your literature review
+- Use sub-headings that mirror your research questions
+
+:::
+
+## Results example 1 {.smaller}
 
 > Figures 4.3 and 4.4 display the actual crash data and the predicted number of crashes spatially. These visualizations show that the model predictions have captured roads that have been dangerous in the past, while also highlighting roads that should potentially be the focus of future concern. To further emphasize the unsafe areas highlighted by the model, the top 1% and top 25% most dangerous roads based on the number of predicted crashes were located and mapped (see figure 4.5). The actual and predicted crash statistics for the 6 roads in the top 1% most dangerous can be seen in table 4.4.
 
----
-
-# Results example 2
-
-Most of the examples of a pass level on Moodle have the results in the discussion section...
-
+## Results example 2 {.smaller}
 
 > Result of K-means clustering analysis is shown as Figure 5.4 above and disadvantageous stations need to be identified based on the result for further optimisation. From Figure 5.4, it can be noticed that off-balancing scores of bike stations are likely to follow a positive correlation with their bike demand in both periods.
 
---
+## Spot the difference(s) 6
 
-Difference is:
+* Clarity about what is going on
+* The results aren't just stated, they are *interpreted* and then used to further the analysis
+* What does the writing add that the figure doesn't? (Or vice versa) 
 
-* clarity of what is going on
-* the results aren't just stated...Figure x shows this, Figure Y shows this...the results are interpreted and then used to further the analysis and or in relation to other results. 
-* what does the writing add that the figure doesn't? 
-* I can see that from the figure...so...you might briefly summarise the figure then interpret...
-* Do you need to write down what i can see it shows? Is that useful?
+## Discussion 
 
----
+Critically *reflect* on your results in relation to literature and policy: connect it back to the introduction / literature review. Not just the limitations of the project!
 
-class: inverse, center, middle
+::: {.notes}
 
-# Discussion 
-
-![](https://media.giphy.com/media/RKRqGJinGNjIzNRy4P/giphy.gif)
----
-
-# Discussion 2
-
-The point of a discussion to critically reflect on your results in relation to literature and policy that you navigated through in the introduction / literature review.
-
-Critical reflection is not the limitations of the project
-.pull-left[
+The discussion flips the funnel we saw earlier, you go from being specific about your project to broader contributions. We start with *you* and build back to the big picture!
 
 - How do your methods / results differ to that of literature and policy
   - do they differ? 
   - why do you think that is?
-
-]
-.pull-right[
-
 - What is the point of your study / what can you suggest or recommend?
   - the point **IS NOT** to merely "support policy"
   - be really specific 
-  
-]
+:::
 
-The discussion flips the funnel we saw earlier, you go from being specific about your project to broader contributions
-
-```{r echo=FALSE, out.width = "15%", fig.align='center'}
-knitr::include_graphics('img/filter_norm.png') 
-```
----
-
-# Discussion example 1
+## Discussion example 1 {.smaller}
 
 > As part of Charlotte’s work with Vision Zero, an online interactive feedback map was developed to allow citizens the opportunity to share concerns about traffic safety within the city (see figure 5.1). Griffin & Jiao find that the use of such digital technologies may introduce accessibility challenges and bias, but that ultimately, ‘Crowdsourcing tools can be valuable approaches to increase geography and equity of public participation in transportation planning’ (Griffin & Jiao 2019, p. 460). The Charlotte Vision Zero report explains: ‘The top five comments submitted related to traffic safety concerns were street design, speeding, lack of pedestrian facilities, failing to yield to pedestrians and drivers running stop signs and red lights’ (City of Charlotte DOT 2019, p. 22). The analysis conducted here has the potential to quantify the impact of changes to the built environment in terms of the number of pedestrian collisions, which could be a powerful tool for advocating for pedestrian needs in the city when combined with existing efforts such as the interactive map
 
----
-
-# Discussion example 2
+## Discussion example 2 {.smaller}
 
 > The module “Document Management” provides ways to identify the change of information effectively. In the case study, the structural team members can find out what modification has been added in the model file by the architectural team, they can compare the versions of the model and all the additional features will be highlighted as Figure 11
 
---
+## Spot the difference(s) 7
 
-Difference is: 
-
-* Demonstration of the issues of current policy - tell me what they are from both examples? Will you struggle with the second?
-
-* Clearly states what the contribution is and how that is useful - again, tell me?
-
+* Demonstrates links to current policy
+* Clearly states what the contribution is and how it is useful
 * Identifies a relevant interactive map and again, suggests how it could be improved or combined.
+* Reflects on relation to literature and or policy
 
-* Reflection in relation to literature and or policy
+## Conclusion
 
----
+If you read *nothing* else...
 
+* Briefly restate what you set out to achieve 
+* Briefly say how you did it
+* Briefly summarise the main results
+* *Explain* hhow this can contribute to future policy and/or literature
 
-class: inverse, center, middle
+::: {.notes}
 
-# Discussion 3
+* No new material or references are in the conclusion
 
-![](https://media.giphy.com/media/RKRqGJinGNjIzNRy4P/giphy.gif)
----
+:::
 
-# Conclusion
-
-The conclusion simply provides a brief overview of the project:
-
---
-
-
-* restate what you set out to achieve 
-
---
-
-* briefly say how you did it
-
---
-
-
-* what the main results were
-
---
-
-* **how this can contribute to future policy and/or literature**
-
---
-
-* **No new material or references are in the conclusion** 
-
----
-
-# Conclusion example
-
-### start of conclusion
+## Conclusion example 1 (start) {.smaller}
 
 > Improving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems
----
 
-# Conclusion example 2
-
-### start of conclusion
+## Conclusion example 2 (start) {.smaller}
 
 > This study mainly explores and discusses the effects of various commuting types on
 the obesity rate. Dividing 9 commuting types into 3, this study analyses the relationship between commuting and obesity by three methodologies, linear regression, K-means clustering and geographically weighted regression. The result demonstrates that carled commuting is highly correlative to the obesity rate, and non-car commuting only can slightly allay the situation of rapidly elevated obesity rate caused by car-led commuting
 
---
+## Spot the difference(s) 8
 
-Difference is:
+* Don't just say what you did
+* Don't undermine your results right at the *end*
+* Link your findings back to policy or bigger problems, and asses how it does (or doesn't!) solve the problem
 
-* Pass level conclusions usually just say what the analysis did
+# Top tips {.smaller}
 
-* Often then might try and add a limitations section or future work section - if you really want these put them in the discussion as sub sections. Keep the conclusion clean
+You will be editing this document daily, your marker won't! Guide them through it.
 
-* Higher grades link this back to policy or bigger problems, review how it does (or doesn't!) solve the problem - you will have said this in the discussion too.
+- [ ] At the end of the introduction you might consider having a very short section explaining the structure of the thesis. Chapter 1 provides a review of recent methods into x y z, Chapter 2. A flow diagram is also useful to show how ideas / data progresses.
+- [ ] Introduce every new chapter with a short paragraph. Summarise what the previous chapter said and state what this one will contribute or further. 
+- [ ] Try to avoid having a results/discussion. Often (not always) this means there will be no discussion. 
+- [ ] Look at the good dissertations, how many figures do they have? Are they all referenced in the text? Are they nicely laid out? Are variables named with _ or IN CAPS or A MiXtURE
+- [ ] Make your work relevant
 
-* It's clear what **the problem was**, what **they did** and **WHY that is useful** in an overview
+## {.smaller}
 
----
+- [ ] Send your supervisor work before meetings.This is a condition to meet with me. 
+- [ ] Ask questions the right way.
+- [ ] Do NOT try and do an internship at the same time, you risk violating the terms of your visa and failing your dissertation. If you want industry experience then apply for a partner project...
+- [ ] Keep in touch with your supervisor...if you disappear we have to report it to student and support well being and success advisers. Again, if you aren't engaging this can put your visa at risk.
+- [ ] USE flow diagrams!
+- [ ] When reading old dissertations don't just read them whole - read one introduction and then compare that with another introduction + make notes on them
 
-# Top tips
+# Award winners {.smaller}
 
-Thinks that the majority of good MSc dissertations have, that no one really tells you. Remember that you will be editing this document daily, your marker won't! Guide them through it.
+| Year | Student | Award | Thesis  |
+| :--- | :------ | :---- | :------ |
+| 2021 | Signe Swarttouw | Planning and Environment | [GitHub](https://github.com/signesw/CASA0010_Dissertation) |
+| 2020 | Hussein Mahfouz | GIScience (joint) | [GitHub](https://github.com/Hussein-Mahfouz/Bicycle-Network-Optimization) |
+| 2020 | Cheyne Campbell | Planning and Environment | [GitHub](https://github.com/cheynecampbell/charlotte-pedestrian-safety) |
+| 2020 | Jamie Ser Nee Tan | Population Geography | [GitHub](https://github.com/jamietansernee/sg-heritage-gentrification) |
+| 2019 | Greg Slater | Planning and Environment | Script in thesis |
+| 2019 | Thomas Keel | GIScience (joint) | [GitHub](https://github.com/Thomasjkeel/MSc_Dissertatio) |
+| 2019 | Joshua Yee | Population Geography | [GitHub](https://jytg17.github.io/Unpacking-the-Nuances-of-Londons-Neighbourhood-Change-Gentrification-Trajectories/) |
 
---
+## What did these students do? {.smaller}
 
-`r fa("check-square", fill = "black")` At the end of the introduction you might consider having a very short section explaining the structure of the thesis. Chapter 1 provides a review of recent methods into x y z, Chapter 2. A flow diagram is also useful to show how ideas / data progresses.
+:::: {.columns}
 
---
+::: {.column width="50%}
 
-`r fa("check-square", fill = "black")` Introduce every new chapter with a short paragraph. Summarise what the previous chapter said and state what this one will contribute or further. 
-
---
-
-`r fa("check-square", fill = "black")` Try to avoid having a results/discussion. Often (not always) this means there will be no discussion. 
-
---
-
-`r fa("check-square", fill = "black")` Look at the good dissertations, how many figures do they have? Are they all referenced in the text? Are they nicely laid out? Are variables named with _ or IN CAPS or A MiXtURE
-
---
-
-`r fa("check-square", fill = "black")` Make your work relevant - Cheyne's dissertation section 2.2.1 - Global and local policies.
-
----
-class: inverse, center, middle 
-
-# `r fa("check-square", fill = "white")` Try to avoid having a results/discussion. Often (not always) this means there will be no discussion.
-
-## recall the observation from earlier about pass level dissertations doing this
-
----
-# Top tips 2
-
-`r fa("check-square", fill = "black")`Send your supervisor work before meetings.This is a condition to meet with me. 
-
---
-
-`r fa("check-square", fill = "black")`Ask questions the right way.
-
---
-
-`r fa("check-square", fill = "black")`Do NOT try and do an internship at the same time, you risk violating the terms of your visa and failing your dissertation. If you want industry experience then apply for a partner project...
-
-
---
-
-`r fa("check-square", fill = "black")`Keep in touch with your supervisor...if you disappear we have to report it to student and support well being and success advisers. Again, if you aren't engaging this can put your visa at risk.
-
---
-
-`r fa("check-square", fill = "black")` USE flow diagrams!
-
---
-
-`r fa("check-square", fill = "black")` when reading old dissertations don't just read them whole - read one introduction and then compare that with another introduction + make notes on them
-
----
-
-# Award winners
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-library(dplyr)
-library(knitr)
-library(kableExtra)
-library(data.table)
-DT = data.table(
-  Student = c("Hussein Mahfouz","Cheyne Campbell","Jamie Ser Nee Tan","Greg Slater","Thomas Keel","Joshua Yee"),
-  Award = c("GIScience (joint)","Planning and Environment","Population Geography","Planning and Environment", "GIScience (joint)", "Population Geography"),
-  Year = c(2020,2020,2020,2019,2019,2019),
-  url = c("https://github.com/Hussein-Mahfouz/Bicycle-Network-Optimization","https://github.com/cheynecampbell/charlotte-pedestrian-safety", "https://github.com/jamietansernee/sg-heritage-gentrification", "script in thesis", "https://github.com/Thomasjkeel/MSc_Dissertation", "https://jytg17.github.io/Unpacking-the-Nuances-of-Londons-Neighbourhood-Change-Gentrification-Trajectories/"))
-
-dt_url <- c("https://github.com/Hussein-Mahfouz/Bicycle-Network-Optimization","https://github.com/cheynecampbell/charlotte-pedestrian-safety", "https://github.com/jamietansernee/sg-heritage-gentrification", "", "https://github.com/Thomasjkeel/MSc_Dissertation", "https://jytg17.github.io/Unpacking-the-Nuances-of-Londons-Neighbourhood-Change-Gentrification-Trajectories/")
-
-DT %>% 
-  mutate(url = cell_spec(DT$url, "html", link = dt_url)) %>%
-  kable("html", escape = FALSE) %>%
-  kable_styling(bootstrap_options = c("hover", "condensed")) 
-```
-
----
-class: inverse, center, middle
-
-# Award winners from last year, RGS Planning and Environment
-
-## Signe Swarttouw "Exploring the distribution of urban building carbon emissions: A spatial approach to Westminster’s decarbonisation strategy"
-
-### https://github.com/signesw/CASA0010_Dissertation
-
----
-
-# What did these students do?
-
-
-.pull-left[
-If you look closely most **didn't**
+Most **didn't**
 
 * compare lots of methods
-
 * do **very** complicated analysis 
-
 * produce an overly technical dissertation
-
 * state exactly what button they clicked and where
-
 * do an industry project or have an external partner to start with
 
-]
-
---
-
-.pull-right[
+:::
+::: {.column width="50%"}
 
 Most **did**
 
 * clearly identify a problem - using literature and policy 
-
 * have a well supported aim / research question and objectives that build towards them
-
 * used 1-2 methods, sometimes in combination
-
 * used slight variations of taught methods
-
 * specifically stated how this can contribute to answering / solving the problem in relation to local policy and Global goals
-
 * showed consideration of broader issues  
 
-]
+:::
 
----
+::::
+
 
 
 # It's iterative 
@@ -821,13 +500,10 @@ The process **you will** do
 
 ]
 
----
 
-class: inverse, center, middle
 
 
 # **Part 3**: Use research language in relation to your thesis 
----
 # Originality and friends 
 
 **Original:** You need to write the assignment in your own words that tells a narrative through the existing research. Don’t just state what others have done 
@@ -845,7 +521,6 @@ class: inverse, center, middle
 **Insightful:** Clearly showing that you understand the methods, concepts and debates discussed but also how your analysis (or discussion) did or could add meaning in some way. 
 > *having or showing an accurate and deep understanding; perceptive.*
 
----
 # Recall research language
 
 **Research gap:** You need to identify and discuss all the existing work and lead the reader to the gap. What is the gap. What hasn’t been done. Why is that important. 
@@ -864,8 +539,6 @@ class: inverse, center, middle
 
 > **WHAT IS NEW**
 
----
-class: inverse, center, middle
 
 # Write yours down
 
@@ -875,9 +548,7 @@ class: inverse, center, middle
 
 `r countdown(minutes=0, seconds =45, warn_when = 10, top=0, left=0)`
 
----
 
-class: inverse, center, middle
 
 # Read the markscheme weekly
 
@@ -890,9 +561,7 @@ class: inverse, center, middle
 
 ### links to relevant academic and policy 
 
----
 
-class: inverse, center, middle
 
 # Set a realistic research question 
 
@@ -904,7 +573,6 @@ class: inverse, center, middle
 
 > to evaluate the effects of family planning policies on the population, and the response from population to family planning policies
 
----
 
 # Objectives?  
 
@@ -925,13 +593,10 @@ Examples of objectives...
 > To understand the policy changes according to the simulation results
 
   ...for?
----
-class: inverse, center, middle
 
 
 # More on research aims, questions and objectives...
 
----
 
 # Recall aims, questions and objectives
 
@@ -941,7 +606,6 @@ class: inverse, center, middle
 
 > How might longitudinal census data and resale prices of residential properties lend insight into spatial patterns of potential neighbourhood gentrification prompted by conserved built heritage in Singapore?
 
----
 
 # Recall aims, questions and objectives 2
 
@@ -951,7 +615,6 @@ class: inverse, center, middle
 
 > this paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making
 
----
 
 # Recall aims, questions and objectives 3
 
@@ -969,9 +632,7 @@ class: inverse, center, middle
 
 > Most importantly, how can the findings of this research be used to improve upon existing policy or urban design strategies by highlighting targeted areas and adjustments for improved pedestrian safety?
 
----
 
-class: inverse, center, middle
 
 # Research question, aim, objectives?  
 --
@@ -985,23 +646,18 @@ class: inverse, center, middle
 
 ## **AND** objectives
 
----
 
-class: inverse, center, middle
 
 # Where do I state them?  
 --
 
 ## Usually at the end of the introduction 
 
----
 
-class: inverse, center, middle
 
 
 # **Part 4**: Plan your project 
 
----
 # How else to study
 
 ## It's a 9-5 job
@@ -1027,14 +683,11 @@ class: inverse, center, middle
 --
 
 * **don't read everything** - there is so much out there, at some point you need to stop, when is that? 
----
 
-class: inverse, center, middle
 # Reward yourself  
 --
 
 ## After doing x i will do y 
----
 
 # How else to study 2
 
@@ -1062,51 +715,47 @@ class: inverse, center, middle
 
 * Describe your work in detail, including in captions. "Figure 6: Plot of GWR"
 
----
-class: inverse, center, middle
 
 # Be specific in the right places...
 
----
 
-class: inverse, center, middle
 # What are you selling
 
 ### Hopefully not everything....linear regression, SLM, SEM, GWR, multi level model, machine learning, negative binomial regression 
 
-```{r echo=FALSE, out.width = "400pt", fig.align='center'}
+```r 
+echo=FALSE, out.width = "400pt", fig.align='center'}
 knitr::include_graphics('img/van.jpg') 
 ```
 
----
 
 # Project planning
 
 Gantt Charts, Trello boards, Research logs
 
 .pull-left[
-```{r image_grobs, echo=FALSE, fig.align="default", out.width="100%"}
+```r 
+image_grobs, echo=FALSE, fig.align="default", out.width="100%"}
 knitr::include_graphics('img/GanttChart.png') 
 ```
 ]
 .pull-right[
-```{r image_grobs2, echo=FALSE, fig.align="default", fig.show="hold", out.width="100%"}
+```r 
+image_grobs2, echo=FALSE, fig.align="default", fig.show="hold", out.width="100%"}
 knitr::include_graphics('img/trello.png') 
 ```
 ]
 
-```{r image_grobs3, echo=FALSE, fig.align="default", fig.show="hold", out.width="40%"}
+```r 
+image_grobs3, echo=FALSE, fig.align="default", fig.show="hold", out.width="40%"}
 knitr::include_graphics('img/research_log.PNG') 
 ```
 
----
-class: inverse, center, middle
 # Make some kind of plan 
 --
 
 ## But be adaptable when it changes
 
----
 
 # Next week
 
@@ -1119,3 +768,9 @@ class: inverse, center, middle
 * Any requests on Slack
 
 * Q and A
+
+---
+
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2>Remember it's <em>your</em> project!</h2>
+:::
