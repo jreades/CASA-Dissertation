@@ -1,6 +1,6 @@
 ---
 title: "How to Write a Dissertation"
-author: "Jon Reades & Andy MacLachlan"
+author: "Jon Reades<br />(after Andy MacLachlan)"
 format:
   revealjs:
     theme: default
@@ -59,6 +59,12 @@ You cannot expect a mark of 70% on effort of 30%.
 ## Set yourself up for success 
 
 ![](img/phdwrite.gif)
+
+---
+
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2>So make a plan...<br />(But be adaptable when it changes!)</h2>
+:::
 
 ## Start anywhere...<br />just make sure you start!
 
@@ -119,7 +125,41 @@ By convention, you don't introduce new literature in the Discussion or Conclusio
 
 ![](img/filter.png)
 
----
+## That's nice, but... {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%} 
+
+The process you *think* you will do:
+
+- Introduction
+- Literature review
+- Methods
+- Results
+- Discussion 
+- Conclusion
+
+:::
+
+::: {.column width="50%"}
+
+The process you *will* do:
+
+- Literature review
+- Methods
+- Literature review
+- Methods
+- Results
+- Discussion 
+- Literature review
+- Discussion 
+- Introduction
+- Conclusion
+
+:::
+
+::::
 
 # Reading the field
 
@@ -184,11 +224,13 @@ Also notice:
 * Local policy, socioeconomic, or geographic challenges
 * More specialist journals and 'grey' literature
 
-## How to summarise
+--- 
 
-You only want to read an article *once*.
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2>Only read an article *once*.^[See the [Soft Skills](https://jreades.github.io/sds_env/skills/reading.html) section of the 'CASA Computing Environment' microsite.]</h2>
+:::
 
-# Tell *your* story!
+# Introducing...<br />*your* story!
 
 ## The introduction
 
@@ -221,11 +263,11 @@ For example, in the London Plan temperature mitigation is specified but no metho
 * Consideration to the viewpoint of the terms..."not as inevitable accidents, but as ‘preventable and unacceptable"
 * Reference to *specific* policy ...later expanded on
 
-## End of Introduction #1 {.smaller}
+## End of introduction #1 {.smaller}
 
 > Ultimately, this study intends to contribute to the field of traffic safety research by further investigating the possibilities for data-driven advocacy for pedestrian needs and solutions. In the words of the visionary Enrique Penalosa, ‘The essence of the conflict today, really, is cars and people...We can have a city that is very friendly to cars, or a city that is very friendly to people. We cannot have both’ (NYC Streets Renaissance 2006).
 
-## End of Introduction #2 {.smaller}
+## End of introduction #2 {.smaller}
 
 > In summary, this article will analyze the fire distribution and causes of fire
 in London considering the time of the fire and the physical location
@@ -242,7 +284,7 @@ fire models to propose a suitable fire station location.
 
 What has been done before and what you are hoping to contribute.
 
-## Literature review 1 {.smaller}
+## Literature review #1 {.smaller}
 
 > Jones et al. (2017) found an interesting relationship between tree canopy coverage and heart diseases. They concluded more trees should be planted where there is a higher prevalence of heart disease. Zhang et al. (2014) found no relationship between tree canopy coverage. Smith et al. (2007) showed that trees and lung disease were related. 
 
@@ -259,7 +301,7 @@ This is just a list. Your job is to tell a story:
 
 :::
 
-## Literature review 2 {.smaller}
+## Literature review #2 {.smaller}
 
 > According to the World Health Organization, twenty-two percent of all road fatalities each year are pedestrians (Bartolomeos et al. 2013, p. vii). This unsettling statistic can perhaps be attributed to the rapid growth of urban centers, paired with a lack of effort to expand pedestrian facilities (Halais 2020). Indeed, pedestrian safety is a problem all over the world. In cities in sub-Saharan Africa, more than half of all trips occur by foot (Pendakur 2005, p. 10), yet pedestrians are regularly and disproportionately involved in incidents with motor vehicles due to a lack of sufficient walkways, lighting, and other helpful urban design provisions (Halais 2020, Murgu´ıa 2018). 
 
@@ -275,7 +317,7 @@ This is just a list. Your job is to tell a story:
 <h2>The literature *supports* the points you make.</h2>
 :::
 
-# Reading the methods (and data)
+# Reading methods+data
 
 Not *just* a sequence of steps:
 
@@ -284,11 +326,11 @@ Not *just* a sequence of steps:
 - What are the weaknesses
 - How your results might differ/improve/challenge
 
-## Methodology example 1 {.smaller}
+## Methodology #1 {.smaller}
 
 > The number of crashes were predicted per road segment using the selected negative binomial regression model and the predictions were compared to the true values, again using MAE, MSE, and RMSE. Where an observation was missing data, the required values were imputed using the rfImpute() function (Breiman 2003). The predicted crashes were mapped, with emphasis on the top 1% and top 25% most dangerous roads. Kumfer et al. (2019) used Empirical Bayes estimates to weight the predictions with historical crash data, but this step was omitted here. The authors write that the non-weighted predictions offer ‘a more holistic measure of pedestrian crash risk, given the uncertainty about future crash locations inherent in any crash prediction method’ (Kumfer et al. 2019, p. 427).
 
-## Methodology example 2 {.smaller}
+## Methodology #2 {.smaller}
 
 > One of the objectives of this dissertation is to explore the relationship between nutrition, income, and obesity in the MSOA area of London. As regression analysis is the method that allows us to examine the relationship between two or more variables, regression analysis was used here to find the relationship between different factors with obesity (Foley, B, 2018). From the past literature, we can know there was a linear relationship between income, nutrition, physical activities, and obesity. So first we used the least square linear regression analysis to see if there are still linear relationships between influenced factors and obesity in geographic scale
 
@@ -297,12 +339,6 @@ Not *just* a sequence of steps:
 * Not much! 
 * Both provide good literature support 
 * Both give a clear overview.
-
----
-
-::: {style="position: relative; top: 40%; font-size: xx-large;"}
-<h2>Avoid kitchen sink analyses.</h2>
-:::
 
 # Analysing
 
@@ -319,11 +355,17 @@ This should *mirror* the first half.
 
 :::
 
-## Results example 1 {.smaller}
+---
+
+::: {style="position: relative; top: 40%; font-size: xx-large;"}
+<h2><em>Avoid</em> kitchen sink analyses.</h2>
+:::
+
+## Results #1 {.smaller}
 
 > Figures 4.3 and 4.4 display the actual crash data and the predicted number of crashes spatially. These visualizations show that the model predictions have captured roads that have been dangerous in the past, while also highlighting roads that should potentially be the focus of future concern. To further emphasize the unsafe areas highlighted by the model, the top 1% and top 25% most dangerous roads based on the number of predicted crashes were located and mapped (see figure 4.5). The actual and predicted crash statistics for the 6 roads in the top 1% most dangerous can be seen in table 4.4.
 
-## Results example 2 {.smaller}
+## Results #2 {.smaller}
 
 > Result of K-means clustering analysis is shown as Figure 5.4 above and disadvantageous stations need to be identified based on the result for further optimisation. From Figure 5.4, it can be noticed that off-balancing scores of bike stations are likely to follow a positive correlation with their bike demand in both periods.
 
@@ -349,11 +391,11 @@ The discussion flips the funnel we saw earlier, you go from being specific about
   - be really specific 
 :::
 
-## Discussion example 1 {.smaller}
+## Discussion #1 {.smaller}
 
 > As part of Charlotte’s work with Vision Zero, an online interactive feedback map was developed to allow citizens the opportunity to share concerns about traffic safety within the city (see figure 5.1). Griffin & Jiao find that the use of such digital technologies may introduce accessibility challenges and bias, but that ultimately, ‘Crowdsourcing tools can be valuable approaches to increase geography and equity of public participation in transportation planning’ (Griffin & Jiao 2019, p. 460). The Charlotte Vision Zero report explains: ‘The top five comments submitted related to traffic safety concerns were street design, speeding, lack of pedestrian facilities, failing to yield to pedestrians and drivers running stop signs and red lights’ (City of Charlotte DOT 2019, p. 22). The analysis conducted here has the potential to quantify the impact of changes to the built environment in terms of the number of pedestrian collisions, which could be a powerful tool for advocating for pedestrian needs in the city when combined with existing efforts such as the interactive map
 
-## Discussion example 2 {.smaller}
+## Discussion #2 {.smaller}
 
 > The module “Document Management” provides ways to identify the change of information effectively. In the case study, the structural team members can find out what modification has been added in the model file by the architectural team, they can compare the versions of the model and all the additional features will be highlighted as Figure 11
 
@@ -379,11 +421,11 @@ If you read *nothing* else...
 
 :::
 
-## Conclusion example 1 (start) {.smaller}
+## Conclusion #1 {.smaller}
 
 > Improving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems
 
-## Conclusion example 2 (start) {.smaller}
+## Conclusion #2 {.smaller}
 
 > This study mainly explores and discusses the effects of various commuting types on
 the obesity rate. Dividing 9 commuting types into 3, this study analyses the relationship between commuting and obesity by three methodologies, linear regression, K-means clustering and geographically weighted regression. The result demonstrates that carled commuting is highly correlative to the obesity rate, and non-car commuting only can slightly allay the situation of rapidly elevated obesity rate caused by car-led commuting
@@ -393,25 +435,6 @@ the obesity rate. Dividing 9 commuting types into 3, this study analyses the rel
 * Don't just say what you did
 * Don't undermine your results right at the *end*
 * Link your findings back to policy or bigger problems, and asses how it does (or doesn't!) solve the problem
-
-# Top tips {.smaller}
-
-You will be editing this document daily, your marker won't! Guide them through it.
-
-- [ ] At the end of the introduction you might consider having a very short section explaining the structure of the thesis. Chapter 1 provides a review of recent methods into x y z, Chapter 2. A flow diagram is also useful to show how ideas / data progresses.
-- [ ] Introduce every new chapter with a short paragraph. Summarise what the previous chapter said and state what this one will contribute or further. 
-- [ ] Try to avoid having a results/discussion. Often (not always) this means there will be no discussion. 
-- [ ] Look at the good dissertations, how many figures do they have? Are they all referenced in the text? Are they nicely laid out? Are variables named with _ or IN CAPS or A MiXtURE
-- [ ] Make your work relevant
-
-## {.smaller}
-
-- [ ] Send your supervisor work before meetings.This is a condition to meet with me. 
-- [ ] Ask questions the right way.
-- [ ] Do NOT try and do an internship at the same time, you risk violating the terms of your visa and failing your dissertation. If you want industry experience then apply for a partner project...
-- [ ] Keep in touch with your supervisor...if you disappear we have to report it to student and support well being and success advisers. Again, if you aren't engaging this can put your visa at risk.
-- [ ] USE flow diagrams!
-- [ ] When reading old dissertations don't just read them whole - read one introduction and then compare that with another introduction + make notes on them
 
 # Award winners {.smaller}
 
@@ -455,322 +478,133 @@ Most **did**
 
 ::::
 
+# The big picture
 
+## Your research is... {.smaller}
 
-# It's iterative 
+- **Original:** you need to write the assignment in your own words in a way that tells a narrative through the existing research. Don’t just state what others have done 
+- **Coherent:** make your points in a logical, sequential manner with support from literature (or policy documents). Don’t just assume the reader knows what you are talking about. 
+- **Insightful:** show that you understand the methods, concepts and debates, and also how your analysis (or discussion) did or could add meaning in some way. 
 
-.pull-left[
-The process **you think** you will do
+## Your research will... {.smaller}
 
-- Introduction
+- **Address a gap:** identify and discuss the relevant existing work and lead the reader to the gap (and its importance) 
+- **Make a contribution:** once you’ve identified the gap, be specific throughout your thesis about what you are contributing.^[This thesis attempts to combine these two datasets FOR THIS REASON...]
+- **Be novel:** clearly say what is new; this could be a new method, a new study area, or a bit of both (or mix too).
 
-- Literature review
-
-- Methods
-
-- Results
-
-- Discussion 
-
-- Conclusion
-]
---
-.pull-right[
-The process **you will** do
-
-- Literature review
-
-- Methods
-
-- Literature review
-
-- Methods
-
-- Results
-
-- Discussion 
-
-- Literature review
-
-- Discussion 
-
-- Introduction
-
-- Conclusion
-
-]
-
-
-
-
-# **Part 3**: Use research language in relation to your thesis 
-# Originality and friends 
-
-**Original:** You need to write the assignment in your own words that tells a narrative through the existing research. Don’t just state what others have done 
-
-> *present or existing from the beginning; first or earliest*
-
---
-
-**Coherent:** Make your points in a logical manner, with support from literature (or policy documents). Don’t just assume the reader knows what you are talking about because they are an academic. Build the story, don’t just jump to the ending.
-
-> *logical and consistent*
-
---
-
-**Insightful:** Clearly showing that you understand the methods, concepts and debates discussed but also how your analysis (or discussion) did or could add meaning in some way. 
-> *having or showing an accurate and deep understanding; perceptive.*
-
-# Recall research language
-
-**Research gap:** You need to identify and discuss all the existing work and lead the reader to the gap. What is the gap. What hasn’t been done. Why is that important. 
-
-> **MISSING**
-
---
-
-**Contribution:** You’ve identified the gap. Be specific throughout your thesis what you are contributing…..As a result this thesis attempts to combine these two datasets for THIS REASON. Continue this through the thesis, especially in the discussion. 
-
-> **A POTENTIAL ANSWER**
-
---
-
-**Novel:** What is new? Remember this could be a new method, a new study area or a bit of both (or mix too). E.g. use an existing method with a slight variation appropriate for a new study area and some different data as that’s what was available or is free! 
-
-> **WHAT IS NEW**
-
-
-# Write yours down
-
-## Try writing yours down now
-
-## Do this regularly (weekly!)
-
-`r countdown(minutes=0, seconds =45, warn_when = 10, top=0, left=0)`
-
-
-
-# Read the markscheme weekly
+## Note the mark scheme! {.smaller}
 
 > Interpretations of results are very well constructed, clear and focused with a well developed narrative throughout. The discussion provides appropriate critical reflections on the project’s outcomes, strengths and limitations with good links to relevant academic and policy (if applicable) debates.
 
---
-### a well developed narrative throughout
+## The research question {.smaller}
 
-### critical reflections on the project’s outcomes
-
-### links to relevant academic and policy 
-
-
-
-# Set a realistic research question 
-
-### The more specific you are with it the easier it will be to undertake your project
-
-> this paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making.
-
---
-
-> to evaluate the effects of family planning policies on the population, and the response from population to family planning policies
-
-
-# Objectives?  
-
-Often confused with research questions. Usually you have 1 or max 2, research questions
-
-Examples of objectives... 
-
-> What features of the built environment are thought to influence pedestrian safety, and can our understanding of these relationships be strengthened?
-
-> What are the challenges when it comes to studying pedestrian safety in terms of the lack of available pedestrian data? Does Charlotte collect and make public the data required for this type of analysis?
-
---
-
-> To simulate the population changes in three different policy
-
-  ....so?
-
-> To understand the policy changes according to the simulation results
-
-  ...for?
-
-
-# More on research aims, questions and objectives...
-
-
-# Recall aims, questions and objectives
-
-**Research question:** Is the central question to the thesis that you will try to answer
-
---
+The central question to the thesis that you will try to answer
 
 > How might longitudinal census data and resale prices of residential properties lend insight into spatial patterns of potential neighbourhood gentrification prompted by conserved built heritage in Singapore?
 
 
-# Recall aims, questions and objectives 2
+## The research aim {.smaller}
 
-**Research aim:** Is a broad statement of intent that you will try and achieve within your thesis, it is usually **just the research question rephrased**
+The more specific you are with it the easier it will be to undertake your project^[Is a broad statement of intent that you will try and achieve within your thesis, it may simply be *the research question rephrased*.]:
 
---
+> This paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making.
 
-> this paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making
+## The research objectives {.smaller}
 
-
-# Recall aims, questions and objectives 3
-
-**Research objectives:** Think of research objectives as the set of measurable and specific goals you need to achieve your aim / research question. As you tick each one off you build a stronger case for answering the research question. It’s good practice (but not always essential) for objectives to follow the S.M.A.R.T. format
-
---
+Often confused with research questions, but they are driven *by* the research question...^[Note: singular.] For example:
 
 > What features of the built environment are thought to influence pedestrian safety, and can our understanding of these relationships be strengthened?
 
---
+## SMART objectives {.smaller}
 
-> What are the challenges when it comes to studying pedestrian safety in terms of the lack of available pedestrian data? Does Charlotte collect and make public the data required for this type of analysis?
+Research objectives are the set of measurable and specific goals you need to achieve your aim / research question. It’s good practice (but not essential) fto follow the S.M.A.R.T. format:
 
---
+- **S**pecific
+- **M**easurable
+- **A**chievable
+- **R**elevant
+- **T**ime-Bound
 
-> Most importantly, how can the findings of this research be used to improve upon existing policy or urban design strategies by highlighting targeted areas and adjustments for improved pedestrian safety?
+## Ultimately: what are you selling?
 
+![](img/van.jpg) 
 
 
-# Research question, aim, objectives?  
---
+# Top tips 
 
-## Different examples have different combinations 
---
+## It's a job {.smaller}
 
-## You need a research question and or aim (you can have both)
+- **Study in chunks**: research a particular topic for a set amount of time - a day, two days, a week? Depending on how important that topic is to your dissertation 
+- **Plan** - what do you want to achieve today
+- **Reflect** - did you do it? why not? was it too ambitious? was the task bigger than you thought
+- **Adjust** - use the new knowledge you've gained, can you now adjust your research question or topic even?
+- **Is it useful** - do you need this? What is it contributing? 
+- **Don't read everything** - there is so much out there, at some point you need to stop, when is that? 
 
---
+## Organise your literature {.smaller}
 
-## **AND** objectives
+- [ ] Choose articles and book chapters over books.
+- [ ] Skim the abstract, introduction and conclusion *first*.
+- [ ] Save useful material (including the citation) to your computer *as you go*.
+- [ ] Write a summary of the literature *as you read it*.
+- [ ] Copy out relevant quotes with page numbers *as you read them*.
 
+## Organise your writing {.smaller}
 
+- [ ] Start each chapter with a paragraph setting out what you're going to do. 
+- [ ] End each chapter with a couple of paragraphs *summarising* what you've done. 
+- [ ] Make use of headings / sub-headings / sub-sub-headings to organise a chapter.
+- [ ] Each paragraph should focus on one concept / issue / method.
+- [ ] Each section should focus on one set of *related* concepts / issues / methods.
+- [ ] Use linking words such as 'Conversely', 'Furthermore', 'However' as appropriate.
+- [ ] Use plain-English in preference to 'academese'.
+  
+::: {.notes}
+You will be editing this document daily, your marker won't! 
 
-# Where do I state them?  
---
+Guide them through it!
+:::
 
-## Usually at the end of the introduction 
+## Organise your analysis  {.smaller}
 
+- [ ] *Use* version control for *everything*!
+- [ ] Use the `README` to track data/as a scratchpad.
+- [ ] You *could* also use GitHub Issues to track what needs doing.
+- [ ] Separate your analytical steps into discrete scripts/notebooks.
+- [ ] Ensure outputs are clearly named and over-write previous versions^[Never rely on copy+paste.].
 
+::: {.notes}
+Remember! You can write out tables as well as figures. In LaTeX these can be imported directly.
 
+:::
 
-# **Part 4**: Plan your project 
+## Organise your figures/tables  {.smaller}
 
-# How else to study
+- [ ] Are they relevant to your argument?
+- [ ] Can you summarise the figure or table in a sentence or two instead?
+- [ ] What level of precision in your output do you need?
+- [ ] Are they all referenced in the text? 
+- [ ] Are they clearly laid out?
 
-## It's a 9-5 job
+::: {.notes}
 
-* **Study in chunks** - research a particular topic for a set amount of time - a day, two days, a week? Depending on how important that topic is to your dissertation 
+:::
 
---
+## Manage your time {.smaller}
 
-* **Plan** - what do you want to achieve today
+- [ ] Send your supervisor work before meetings.^[This is a condition to meet with me.]
+- [ ] Ask questions the 'right way'.^[See the [How to Get Help](https://jreades.github.io/sds_env/skills/help.html) section of the 'CASA Computing Environment' microsite.]
+- [ ] Do NOT try and do an internship at the same time.^[You risk violating the terms of your visa *and* failing your dissertation.]
+- [ ] Keep in touch with your supervisor...^[If you disappear we have to report it to student support wellbeing and success advisers. Again, this can put your visa at risk.]
 
---
+## Reward yourself  
 
-* **Reflect** - did you do it? why not? was it too ambitious? was the task bigger than you thought
-
---
-
-* **Adjust** - use the new knowledge you've gained, can you now adjust your research question or topic even?
-
---
-
-* **is it useful** - do you need this? What is it contributing? 
-
---
-
-* **don't read everything** - there is so much out there, at some point you need to stop, when is that? 
-
-# Reward yourself  
---
-
-## After doing x i will do y 
-
-# How else to study 2
-
-## Collaborate / talk to each other
-
-* With your supervisor - **send them  drafts** and **ask for comments**
-
---
-
-* With each other
-
---
-
-* If you have questions come to discuss them + solutions rather than expect answers.
-
---
-
-> I'm struggling to classify urban areas from satellite imagery, what do i do
-
---
-
-> I'm struggling to classify urban areas from satellite imagery. I've tried using Maximum likelihood but it doesn't produce very good results. I've read about SVM, do you think i should try it 
-
---
-
-* Describe your work in detail, including in captions. "Figure 6: Plot of GWR"
-
-
-# Be specific in the right places...
-
-
-# What are you selling
-
-### Hopefully not everything....linear regression, SLM, SEM, GWR, multi level model, machine learning, negative binomial regression 
-
-```r 
-echo=FALSE, out.width = "400pt", fig.align='center'}
-knitr::include_graphics('img/van.jpg') 
-```
-
-
-# Project planning
-
-Gantt Charts, Trello boards, Research logs
-
-.pull-left[
-```r 
-image_grobs, echo=FALSE, fig.align="default", out.width="100%"}
-knitr::include_graphics('img/GanttChart.png') 
-```
-]
-.pull-right[
-```r 
-image_grobs2, echo=FALSE, fig.align="default", fig.show="hold", out.width="100%"}
-knitr::include_graphics('img/trello.png') 
-```
-]
-
-```r 
-image_grobs3, echo=FALSE, fig.align="default", fig.show="hold", out.width="40%"}
-knitr::include_graphics('img/research_log.PNG') 
-```
-
-# Make some kind of plan 
---
-
-## But be adaptable when it changes
-
-
-# Next week
-
-* How to set up your dissertation document
-
-  * Word (briefly)
-
-  * Bookdown (using RMarkdown) - https://andrewmaclachlan.github.io/CASA-MSc-thesis/
-
-* Any requests on Slack
-
-* Q and A
+- After doing *x*, I will do *y* 
+- Talk to each other
+- Take time out/off
 
 ---
 
 ::: {style="position: relative; top: 40%; font-size: xx-large;"}
-<h2>Remember it's <em>your</em> project!</h2>
+<h2>Above all...<br />remember that it's <em>your</em> project!</h2>
 :::
