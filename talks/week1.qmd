@@ -1,12 +1,10 @@
 ---
-title: "How to Write a Dissertation"
-author: "Jon Reades<br />(after Andy MacLachlan)"
+author: "Jon Reades (after Andy MacLachlan)"
 format:
   revealjs:
-    theme: default
-  html:
-    embed-resources: true
-#jupyter: python3
+    theme: dark
+title: "How to Write a Dissertation"
+history: false
 ---
 
 ## Steps

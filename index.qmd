@@ -1,0 +1,7 @@
+---
+title: "Dissertation Talks"
+author: "Jon Reades"
+---
+
+- [Week 1](talks/week1.qmd)
+- [Week 2](talks/week2.qmd)
