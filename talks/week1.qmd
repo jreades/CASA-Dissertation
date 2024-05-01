@@ -2,7 +2,7 @@
 author: "Jon Reades (after Andy MacLachlan)"
 format:
   revealjs:
-    theme: dark
+    theme: default
 title: "How to Write a Dissertation"
 history: false
 ---
@@ -20,7 +20,7 @@ history: false
 
 ---
 
-![Dissertation Research in Education: Process](img/research_process_2.jpg)
+![Dissertation Research in Education: Process](/img/research_process_2.jpg)
 
 ::: {style="font-size: 25%;"}
 Source: [mc.libguides.com/eddoc/research](https://mc.libguides.com/eddoc/research)
@@ -55,7 +55,7 @@ You cannot expect a mark of 70% on effort of 30%.
 
 ## Set yourself up for success 
 
-![](img/phdwrite.gif)
+![](/img/phdwrite.gif)
 
 ---
 
@@ -120,7 +120,7 @@ By convention, you don't introduce new literature in the Discussion or Conclusio
 
 ## The first half...
 
-![](img/filter.png)
+![](/img/filter.png)
 
 ## That's nice, but... {.smaller}
 
@@ -341,7 +341,7 @@ Not *just* a sequence of steps:
 
 ## The second half...
 
-![](img/filter_norm.png) 
+![](/img/filter_norm.png) 
 
 ::: {.notes}
 
@@ -524,7 +524,7 @@ Research objectives are the set of measurable and specific goals you need to ach
 
 ## Ultimately: what are you selling?
 
-![](img/van.jpg) 
+![](/img/van.jpg) 
 
 
 # Top tips 

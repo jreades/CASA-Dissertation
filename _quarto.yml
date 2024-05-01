@@ -1,41 +1,32 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: site
   preview:
     port: 4202
+    browser: true
   render:
+    - "*.qmd"
     - "!refs/"
   resources:
-    - "img"
+    - "img/"
+    - "talks/img/"
 
 website:
   title: "Managing Your Dissertation"
-  image: "img/CASA_Logo_no_text.png"
   favicon: "/img/favicon.ico"
   page-navigation: true
-  reader-mode: true
   navbar:
-    background: primary
-    search: true
-    logo: "/img/CASA_Logo_no_text.png"
-    collapse: true
-    collapse-below: md
     left:
-      - text: "Welcome"
-        href: index.qmd
-
-#bibliography: bib/Reades.bib
-#csl: bib/chicago-author-date.csl
-
-highlight-style: pygments
+      - href: index.qmd
+        text: Welcome
 
 format:
   html:
-    theme:
-      - minty
+    theme: cosmo
+    css: styles.css
     toc: false
+    embed-resources: true
   revealjs:
-    #theme: default
     transition: slide
     transition-speed: fast
     background-transition: fade

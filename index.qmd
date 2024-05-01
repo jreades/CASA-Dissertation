@@ -1,6 +1,7 @@
 ---
 title: "Dissertation Talks"
 author: "Jon Reades"
+format: html
 ---
 
 - [Week 1](talks/week1.qmd)

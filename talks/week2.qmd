@@ -169,7 +169,7 @@ Start discussing you results in relation to literature
 
 ::: {.column width="50%"}
 
-![](./img/filter_norm.png)
+![](/img/filter_norm.png)
 
 :::
 
