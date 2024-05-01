@@ -1,0 +1,471 @@
+[
+  {
+    "objectID": "talks/week2.html#literature-review-1",
+    "href": "talks/week2.html#literature-review-1",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Literature review 1",
+    "text": "Literature review 1\nCan features of the built environment be used to predict the locations of pedestrian crashes at the street level in Uptown Charlotte, North Carolina?\n\nBenefits of Walking\nPedestrian Safety Pandemic\n\nPedestrian Policies, Globally and Locally\nFactors Influencing Pedestrian Safety\n\nPedestrian Data Dilemmas\nMethods for Considering Pedestrian Safety"
+  },
+  {
+    "objectID": "talks/week2.html#literature-review-2",
+    "href": "talks/week2.html#literature-review-2",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Literature review 2",
+    "text": "Literature review 2\nCan we prioritize road segments for investments in segregated cycling infrastructure, doing so in a way that makes optimal use of limited budgets?\n\nWhat affects the decision to cycle?\n\nExistence of Segregated Cycling Infrastructure\nDirectness\nContinuity and Density\nOverarching Policies\n\nPlanning Cycling Networks?\n\nConnected Components\nOptimization\nDirectness\nOptimization based on Community Detection"
+  },
+  {
+    "objectID": "talks/week2.html#what-is-new",
+    "href": "talks/week2.html#what-is-new",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "What is new?",
+    "text": "What is new?\nOnly by demonstrating you’ve ‘done your homework’ can you convince me that you’ve found something ‘new’!"
+  },
+  {
+    "objectID": "talks/week2.html#headings",
+    "href": "talks/week2.html#headings",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Headings",
+    "text": "Headings\n\nStudy Area\nData (and limitations?)\nEthical considerations\nMethods\n\nRandom forest\nNegative Binomial Regression\nPrediction and Interpretation\nMeasuring error"
+  },
+  {
+    "objectID": "talks/week2.html#notes-on-the-study-area",
+    "href": "talks/week2.html#notes-on-the-study-area",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Notes on the study area",
+    "text": "Notes on the study area\n\nIs your study area unique?\nAre you trying to address a specific policy or metropolitan challenge that is associated with that city?\nDoes it have a history of trying to solve the issue or failures in attempting to address it\nIs there specific data for your city that is better/new/different?\nHas there been a sudden local interest from policy\n\nYou probably don’t need one if you are creating a new method…1\nPro tip: you’re probably not creating a new method."
+  },
+  {
+    "objectID": "talks/week2.html#headings-1",
+    "href": "talks/week2.html#headings-1",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Headings",
+    "text": "Headings\n\n\n\nOD Pair Performance\nPotential Cycling Demand\nRouting\nPrioritizing Road Segments for Segregated Infrastructure\n\nAlgorithm 1: Growth From One Origin\nAlgorithm 2: Utilitarian Growth\nAlgorithm 3: Egalitarian Growth (Focus on Fair Distribution of Resources)\nConnectivity\n\n\n\n\nWhat Affects the Decision to Cycle\n\nExistence of Segregated Cycling Infrastructure\nDirectness\nContinuity and Density\nOverarching Policies\n\nPlanning Cycling Networks\n\nConnected Components\nOptimization\nDirectness\nOptimization based on Community Detection\n\nUnderlying Ethical Principles"
+  },
+  {
+    "objectID": "talks/week2.html#remember-the-funnel",
+    "href": "talks/week2.html#remember-the-funnel",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Remember the funnel",
+    "text": "Remember the funnel\n\n\nStart discussing you results in relation to literature\n\nBuild outwards to specific policy recommendations\nFrame them within limitations"
+  },
+  {
+    "objectID": "talks/week2.html#compare",
+    "href": "talks/week2.html#compare",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Compare…",
+    "text": "Compare…\nIn this example I would have liked to see some more actionable recommedations as opposed to..\n\nFuture work should also more comprehensively investigate appropriate baseline levels of maintenance activity, for example by following the approach detailed here to quantify maintenance in areas of known high data quality"
+  },
+  {
+    "objectID": "talks/week2.html#word",
+    "href": "talks/week2.html#word",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Word",
+    "text": "Word\n\nUse a reference manager - Zotero\nInstall the Word plugin\nWhen you download the paper into Zotero make sure all the details are correct, it will save you time later when populating the reference list.\nBack up your files, Word will crash and you might lose it all"
+  },
+  {
+    "objectID": "talks/week2.html#word-2.0",
+    "href": "talks/week2.html#word-2.0",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Word 2.0",
+    "text": "Word 2.0\n\nSet paragraph and character styles and use them.\nUse numbered headings\nUse ‘insert caption’ for figures and tables\nUse ‘insert cross-reference’ rather than typing them out1\n\nIf the cross reference numbers aren’t updating, control + P [print] then cancel and they will!"
+  },
+  {
+    "objectID": "talks/week2.html#table-of-contents",
+    "href": "talks/week2.html#table-of-contents",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Table of contents",
+    "text": "Table of contents\n\nAuto-insert table of contents (adjust to level 1 and 2 only)\nAuto-insert table of figures\nAuto-insert table of tables"
+  },
+  {
+    "objectID": "talks/week2.html#advanced-formatting",
+    "href": "talks/week2.html#advanced-formatting",
+    "title": "How to Write a Dissertation (Part 2)",
+    "section": "Advanced formatting",
+    "text": "Advanced formatting\n\nMake use of breaks, widow and orphan control, etc. to manage flow\nCan be useful to create custom styles to enable different formatting on different sections - e.g. title page, abstract and then contents\nMay be worth a Master document and embedding child documents (but frustration ahead!)\nWhen you finish your thesis use Save as Adobe PDF (not Print + Save as PDF) - this means the PDF document has bookmarks that can be clicked"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dissertation Talks",
+    "section": "",
+    "text": "Week 1\nWeek 2"
+  },
+  {
+    "objectID": "talks/week1.html#steps",
+    "href": "talks/week1.html#steps",
+    "title": "How to Write a Dissertation",
+    "section": "Steps",
+    "text": "Steps\n\n\nPlanning\nReading the field\nReading the methods\nSummarising\nAnalysing\nRepeating"
+  },
+  {
+    "objectID": "talks/week1.html#set-your-expectations",
+    "href": "talks/week1.html#set-your-expectations",
+    "title": "How to Write a Dissertation",
+    "section": "Set (your) expectations",
+    "text": "Set (your) expectations\nWhat is your ultimate goal?\n\nWhat you want to do after your degree?\nWhat skills do think you might need do it?\nWhat mark do you need to achieve it?\nHow hard do you want to work to achieve it?\nHow can your dissertation demonstrate progress towards it?\n\nYou cannot expect a mark of 70% on effort of 30%."
+  },
+  {
+    "objectID": "talks/week1.html#set-yourself-up-for-success",
+    "href": "talks/week1.html#set-yourself-up-for-success",
+    "title": "How to Write a Dissertation",
+    "section": "Set yourself up for success",
+    "text": "Set yourself up for success"
+  },
+  {
+    "objectID": "talks/week1.html#start-anywhere-just-make-sure-you-start",
+    "href": "talks/week1.html#start-anywhere-just-make-sure-you-start",
+    "title": "How to Write a Dissertation",
+    "section": "Start anywhere…just make sure you start!",
+    "text": "Start anywhere…just make sure you start!\n\nHow do you work best?\nWhere do you work best?\nWhen do you work best?\nWhat tools allow you to do your best work?\nWhat do you know already?"
+  },
+  {
+    "objectID": "talks/week1.html#what-dont-you-know",
+    "href": "talks/week1.html#what-dont-you-know",
+    "title": "How to Write a Dissertation",
+    "section": "What do(n’t) you know?",
+    "text": "What do(n’t) you know?\nIt can be easy to list everything you don’t know or aren’t good at, so why not focus on:\n\nWhat interests you?\nWhat theories you know?\nWhat literature you know / have read?\nWhat tools you know?\nWhat methods you know?\nWhat datasets you know of / can find?"
+  },
+  {
+    "objectID": "talks/week1.html#make-connections",
+    "href": "talks/week1.html#make-connections",
+    "title": "How to Write a Dissertation",
+    "section": "Make connections!",
+    "text": "Make connections!\nTry to connect up what you do know through:\n\nA mind map\nA Miro board\nA Trello board\nBullet points\nLiterature review or summary"
+  },
+  {
+    "objectID": "talks/week1.html#set-your-readers-expectations",
+    "href": "talks/week1.html#set-your-readers-expectations",
+    "title": "How to Write a Dissertation",
+    "section": "Set your (reader’s) expectations",
+    "text": "Set your (reader’s) expectations\nMost papers and dissertations follow this structure:\n\nIntroduction\nLiterature Review\nMethodology & Data\nAnalysis/Results\nDiscussion/Conclusion\n\n\nBy convention, you don’t introduce new literature in the Discussion or Conclusion, and you don’t introduce each methodology while doing the analysis. It is possible to deviate from this structure when the need arises, but be prepared for pushback if you do!"
+  },
+  {
+    "objectID": "talks/week1.html#the-first-half",
+    "href": "talks/week1.html#the-first-half",
+    "title": "How to Write a Dissertation",
+    "section": "The first half…",
+    "text": "The first half…"
+  },
+  {
+    "objectID": "talks/week1.html#thats-nice-but",
+    "href": "talks/week1.html#thats-nice-but",
+    "title": "How to Write a Dissertation",
+    "section": "That’s nice, but…",
+    "text": "That’s nice, but…\n\n\nThe process you think you will do:\n\nIntroduction\nLiterature review\nMethods\nResults\nDiscussion\nConclusion\n\n\nThe process you will do:\n\nLiterature review\nMethods\nLiterature review\nMethods\nResults\nDiscussion\nLiterature review\nDiscussion\nIntroduction\nConclusion"
+  },
+  {
+    "objectID": "talks/week1.html#two-types-of-reading",
+    "href": "talks/week1.html#two-types-of-reading",
+    "title": "How to Write a Dissertation",
+    "section": "Two types of reading",
+    "text": "Two types of reading\n\n\nSetting the scene reading\nTechnical reading"
+  },
+  {
+    "objectID": "talks/week1.html#setting-the-scene-reading",
+    "href": "talks/week1.html#setting-the-scene-reading",
+    "title": "How to Write a Dissertation",
+    "section": "Setting the scene reading",
+    "text": "Setting the scene reading\nBroader, often global, challenges, perhaps from a different discipline altogether. Commonly found in journals such as Science, Nature or (global) policy documents.\n\n\nPolicy\n\nUN Sustainable Development Goals\nC40 Cities\nSendai disaster risk framework\nLondon Plan\nJohannesburg’s Spatial Development Framework 2040\nNew Urban Agenda\n\n\nPapers\n\nGive cities a seat at the top table, Acuto 2016\nScientists must have a say in the future of cities, McPherson 2016\nGlobal science for city policy, Acuto 2018\nA global economic assessment of city policies to reduce climate change impacts, Estrada 2017\nA unified theory of urban living, Bettencourt 2010"
+  },
+  {
+    "objectID": "talks/week1.html#technical-reading",
+    "href": "talks/week1.html#technical-reading",
+    "title": "How to Write a Dissertation",
+    "section": "Technical reading",
+    "text": "Technical reading\nThe nitty gritty of the methods you want to apply:\n\nWhere (e.g. journal, discipline, country, area, etc.)\nWhen (e.g. 1960s, 2020s, seasonally, etc.)\nHow (e.g. comparatively, individually, sequentially, etc.)\nWhy (e.g. to compare, to test, to hypothesise, etc.)\n\nAlso notice:\n\nWhat (e.g. what has changed over time and across studies that have different data and methods)"
+  },
+  {
+    "objectID": "talks/week1.html#additional-considerations",
+    "href": "talks/week1.html#additional-considerations",
+    "title": "How to Write a Dissertation",
+    "section": "Additional considerations…",
+    "text": "Additional considerations…\n\nThe specific detail of your study area\nLocal policy, socioeconomic, or geographic challenges\nMore specialist journals and ‘grey’ literature"
+  },
+  {
+    "objectID": "talks/week1.html#the-introduction",
+    "href": "talks/week1.html#the-introduction",
+    "title": "How to Write a Dissertation",
+    "section": "The introduction",
+    "text": "The introduction\nA broad introduction to the issue being explored to establish the relevance of your research.\nBluntly: why should I read your thesis?\n\nTowards the end of the introduction links will be made to specific local case studies / literature\nFor example, in the London Plan temperature mitigation is specified but no methodological details are provided\n…in recent years the development of local models to predict temperature has resulted in the potential to actively reform building construction yet…."
+  },
+  {
+    "objectID": "talks/week1.html#introduction-1",
+    "href": "talks/week1.html#introduction-1",
+    "title": "How to Write a Dissertation",
+    "section": "Introduction #1",
+    "text": "Introduction #1\n\nTraffic safety problems are causing incommensurate harm to pedestrians in cities around the world (Bartolomeos et al. 2013). In the United States, 49,340 pedestrians were killed by moving vehicles between 2008 and 2017 (Zaccaro 2019). As walkability becomes more central in the minds of transportation planners, government officials, and citizens due to the corresponding advantages in the realms of health, wealth, and happiness (see section 2.1), it is critical that pedestrian traffic fatalities come to be seen not as inevitable accidents, but as ‘preventable and unacceptable’ occurrences (City of Charlotte DOT 2019, p. 8). Further, it is essential that burgeoning cities like Charlotte, North Carolina, where this study is focused, are able to grow in ways that are both sustainable and appealing. In such places, effectively addressing pedestrian safety and walkability will be one of the keys to future success. Accordingly, this goal is an important component of various global and local policies (see section 2.2)."
+  },
+  {
+    "objectID": "talks/week1.html#introduction-2",
+    "href": "talks/week1.html#introduction-2",
+    "title": "How to Write a Dissertation",
+    "section": "Introduction #2",
+    "text": "Introduction #2\n\nFire has always been a major unpredictable factor that presents a safety risk to people. Especially in the United Kingdom, which is a country where fires occur frequently. Throughout British history, many large-scale fires have caused irrevocable damage to London. Among them, the most famous fire was the Great Fire of London in 1666 (J. Carlson, 2005)，which lasted for four days before it was completely put out, making 70,000 people homeless and destroying thousands of medieval buildings. However, the only reason for that was a fire in the bakery. This shows that the fire is very contagious. For the government, it is imperative to detect a fire immediately and take corresponding measures as soon as possible."
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-1",
+    "href": "talks/week1.html#spot-the-differences-1",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 1",
+    "text": "Spot the difference(s) 1\n\nSpecific but relevant detail\n\nSelling the relevance of the analysis\nConsideration to the viewpoint of the terms…“not as inevitable accidents, but as ’preventable and unacceptable”\nReference to specific policy …later expanded on"
+  },
+  {
+    "objectID": "talks/week1.html#end-of-introduction-1",
+    "href": "talks/week1.html#end-of-introduction-1",
+    "title": "How to Write a Dissertation",
+    "section": "End of introduction #1",
+    "text": "End of introduction #1\n\nUltimately, this study intends to contribute to the field of traffic safety research by further investigating the possibilities for data-driven advocacy for pedestrian needs and solutions. In the words of the visionary Enrique Penalosa, ‘The essence of the conflict today, really, is cars and people…We can have a city that is very friendly to cars, or a city that is very friendly to people. We cannot have both’ (NYC Streets Renaissance 2006)."
+  },
+  {
+    "objectID": "talks/week1.html#end-of-introduction-2",
+    "href": "talks/week1.html#end-of-introduction-2",
+    "title": "How to Write a Dissertation",
+    "section": "End of introduction #2",
+    "text": "End of introduction #2\n\nIn summary, this article will analyze the fire distribution and causes of fire in London considering the time of the fire and the physical location through a comprehensive analysis of the establishment of GIS and related fire models to propose a suitable fire station location."
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-2",
+    "href": "talks/week1.html#spot-the-differences-2",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 2",
+    "text": "Spot the difference(s) 2\n\nContribution and the why\nNot just a summary\nSell it"
+  },
+  {
+    "objectID": "talks/week1.html#literature-review-1",
+    "href": "talks/week1.html#literature-review-1",
+    "title": "How to Write a Dissertation",
+    "section": "Literature review #1",
+    "text": "Literature review #1\n\nJones et al. (2017) found an interesting relationship between tree canopy coverage and heart diseases. They concluded more trees should be planted where there is a higher prevalence of heart disease. Zhang et al. (2014) found no relationship between tree canopy coverage. Smith et al. (2007) showed that trees and lung disease were related.\n\n\nThis is just a list. Your job is to tell a story:\n\nWhat do studies show broadly are they similar or different\nHow do studies advance each other\nWhat do they agree on\nWhat do they disagree on\nWhy do you think that is\nHow can that be applied to your study."
+  },
+  {
+    "objectID": "talks/week1.html#literature-review-2",
+    "href": "talks/week1.html#literature-review-2",
+    "title": "How to Write a Dissertation",
+    "section": "Literature review #2",
+    "text": "Literature review #2\n\nAccording to the World Health Organization, twenty-two percent of all road fatalities each year are pedestrians (Bartolomeos et al. 2013, p. vii). This unsettling statistic can perhaps be attributed to the rapid growth of urban centers, paired with a lack of effort to expand pedestrian facilities (Halais 2020). Indeed, pedestrian safety is a problem all over the world. In cities in sub-Saharan Africa, more than half of all trips occur by foot (Pendakur 2005, p. 10), yet pedestrians are regularly and disproportionately involved in incidents with motor vehicles due to a lack of sufficient walkways, lighting, and other helpful urban design provisions (Halais 2020, Murgu´ıa 2018)."
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-3",
+    "href": "talks/week1.html#spot-the-differences-3",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 3",
+    "text": "Spot the difference(s) 3\n\nIt’s a story and you are guiding me through it….\nThe literature provides the SUPPORT to the points you make\nThe literature might give you ideas but it doesn’t then form the direct basis of your writing…it is there backing you up."
+  },
+  {
+    "objectID": "talks/week1.html#methodology-1",
+    "href": "talks/week1.html#methodology-1",
+    "title": "How to Write a Dissertation",
+    "section": "Methodology #1",
+    "text": "Methodology #1\n\nThe number of crashes were predicted per road segment using the selected negative binomial regression model and the predictions were compared to the true values, again using MAE, MSE, and RMSE. Where an observation was missing data, the required values were imputed using the rfImpute() function (Breiman 2003). The predicted crashes were mapped, with emphasis on the top 1% and top 25% most dangerous roads. Kumfer et al. (2019) used Empirical Bayes estimates to weight the predictions with historical crash data, but this step was omitted here. The authors write that the non-weighted predictions offer ‘a more holistic measure of pedestrian crash risk, given the uncertainty about future crash locations inherent in any crash prediction method’ (Kumfer et al. 2019, p. 427)."
+  },
+  {
+    "objectID": "talks/week1.html#methodology-2",
+    "href": "talks/week1.html#methodology-2",
+    "title": "How to Write a Dissertation",
+    "section": "Methodology #2",
+    "text": "Methodology #2\n\nOne of the objectives of this dissertation is to explore the relationship between nutrition, income, and obesity in the MSOA area of London. As regression analysis is the method that allows us to examine the relationship between two or more variables, regression analysis was used here to find the relationship between different factors with obesity (Foley, B, 2018). From the past literature, we can know there was a linear relationship between income, nutrition, physical activities, and obesity. So first we used the least square linear regression analysis to see if there are still linear relationships between influenced factors and obesity in geographic scale"
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-5",
+    "href": "talks/week1.html#spot-the-differences-5",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 5",
+    "text": "Spot the difference(s) 5\n\nNot much!\nBoth provide good literature support\nBoth give a clear overview."
+  },
+  {
+    "objectID": "talks/week1.html#the-second-half",
+    "href": "talks/week1.html#the-second-half",
+    "title": "How to Write a Dissertation",
+    "section": "The second half…",
+    "text": "The second half…\n\n\nThis should mirror the first half.\n\nUse a structure that mirrors your literature review\nUse sub-headings that mirror your research questions"
+  },
+  {
+    "objectID": "talks/week1.html#results-1",
+    "href": "talks/week1.html#results-1",
+    "title": "How to Write a Dissertation",
+    "section": "Results #1",
+    "text": "Results #1\n\nFigures 4.3 and 4.4 display the actual crash data and the predicted number of crashes spatially. These visualizations show that the model predictions have captured roads that have been dangerous in the past, while also highlighting roads that should potentially be the focus of future concern. To further emphasize the unsafe areas highlighted by the model, the top 1% and top 25% most dangerous roads based on the number of predicted crashes were located and mapped (see figure 4.5). The actual and predicted crash statistics for the 6 roads in the top 1% most dangerous can be seen in table 4.4."
+  },
+  {
+    "objectID": "talks/week1.html#results-2",
+    "href": "talks/week1.html#results-2",
+    "title": "How to Write a Dissertation",
+    "section": "Results #2",
+    "text": "Results #2\n\nResult of K-means clustering analysis is shown as Figure 5.4 above and disadvantageous stations need to be identified based on the result for further optimisation. From Figure 5.4, it can be noticed that off-balancing scores of bike stations are likely to follow a positive correlation with their bike demand in both periods."
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-6",
+    "href": "talks/week1.html#spot-the-differences-6",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 6",
+    "text": "Spot the difference(s) 6\n\nClarity about what is going on\nThe results aren’t just stated, they are interpreted and then used to further the analysis\nWhat does the writing add that the figure doesn’t? (Or vice versa)"
+  },
+  {
+    "objectID": "talks/week1.html#discussion",
+    "href": "talks/week1.html#discussion",
+    "title": "How to Write a Dissertation",
+    "section": "Discussion",
+    "text": "Discussion\nCritically reflect on your results in relation to literature and policy: connect it back to the introduction / literature review. Not just the limitations of the project!\n\nThe discussion flips the funnel we saw earlier, you go from being specific about your project to broader contributions. We start with you and build back to the big picture!\n\nHow do your methods / results differ to that of literature and policy\n\ndo they differ?\nwhy do you think that is?\n\nWhat is the point of your study / what can you suggest or recommend?\n\nthe point IS NOT to merely “support policy”\nbe really specific"
+  },
+  {
+    "objectID": "talks/week1.html#discussion-1",
+    "href": "talks/week1.html#discussion-1",
+    "title": "How to Write a Dissertation",
+    "section": "Discussion #1",
+    "text": "Discussion #1\n\nAs part of Charlotte’s work with Vision Zero, an online interactive feedback map was developed to allow citizens the opportunity to share concerns about traffic safety within the city (see figure 5.1). Griffin & Jiao find that the use of such digital technologies may introduce accessibility challenges and bias, but that ultimately, ‘Crowdsourcing tools can be valuable approaches to increase geography and equity of public participation in transportation planning’ (Griffin & Jiao 2019, p. 460). The Charlotte Vision Zero report explains: ‘The top five comments submitted related to traffic safety concerns were street design, speeding, lack of pedestrian facilities, failing to yield to pedestrians and drivers running stop signs and red lights’ (City of Charlotte DOT 2019, p. 22). The analysis conducted here has the potential to quantify the impact of changes to the built environment in terms of the number of pedestrian collisions, which could be a powerful tool for advocating for pedestrian needs in the city when combined with existing efforts such as the interactive map"
+  },
+  {
+    "objectID": "talks/week1.html#discussion-2",
+    "href": "talks/week1.html#discussion-2",
+    "title": "How to Write a Dissertation",
+    "section": "Discussion #2",
+    "text": "Discussion #2\n\nThe module “Document Management” provides ways to identify the change of information effectively. In the case study, the structural team members can find out what modification has been added in the model file by the architectural team, they can compare the versions of the model and all the additional features will be highlighted as Figure 11"
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-7",
+    "href": "talks/week1.html#spot-the-differences-7",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 7",
+    "text": "Spot the difference(s) 7\n\nDemonstrates links to current policy\nClearly states what the contribution is and how it is useful\nIdentifies a relevant interactive map and again, suggests how it could be improved or combined.\nReflects on relation to literature and or policy"
+  },
+  {
+    "objectID": "talks/week1.html#conclusion",
+    "href": "talks/week1.html#conclusion",
+    "title": "How to Write a Dissertation",
+    "section": "Conclusion",
+    "text": "Conclusion\nIf you read nothing else…\n\nBriefly restate what you set out to achieve\nBriefly say how you did it\nBriefly summarise the main results\nExplain hhow this can contribute to future policy and/or literature\n\n\n\nNo new material or references are in the conclusion"
+  },
+  {
+    "objectID": "talks/week1.html#conclusion-1",
+    "href": "talks/week1.html#conclusion-1",
+    "title": "How to Write a Dissertation",
+    "section": "Conclusion #1",
+    "text": "Conclusion #1\n\nImproving walkability is gaining traction as an essential strategy for achieving economic, public health and sustainability goals in cities worldwide. The newfound appreciation for walkability has coincided with concern about effectively facilitating safe walking journeys. While data-driven analysis methods have long been used to study vehicular traffic, such methods are only recently being applied to pedestrian problems"
+  },
+  {
+    "objectID": "talks/week1.html#conclusion-2",
+    "href": "talks/week1.html#conclusion-2",
+    "title": "How to Write a Dissertation",
+    "section": "Conclusion #2",
+    "text": "Conclusion #2\n\nThis study mainly explores and discusses the effects of various commuting types on the obesity rate. Dividing 9 commuting types into 3, this study analyses the relationship between commuting and obesity by three methodologies, linear regression, K-means clustering and geographically weighted regression. The result demonstrates that carled commuting is highly correlative to the obesity rate, and non-car commuting only can slightly allay the situation of rapidly elevated obesity rate caused by car-led commuting"
+  },
+  {
+    "objectID": "talks/week1.html#spot-the-differences-8",
+    "href": "talks/week1.html#spot-the-differences-8",
+    "title": "How to Write a Dissertation",
+    "section": "Spot the difference(s) 8",
+    "text": "Spot the difference(s) 8\n\nDon’t just say what you did\nDon’t undermine your results right at the end\nLink your findings back to policy or bigger problems, and asses how it does (or doesn’t!) solve the problem"
+  },
+  {
+    "objectID": "talks/week1.html#what-did-these-students-do",
+    "href": "talks/week1.html#what-did-these-students-do",
+    "title": "How to Write a Dissertation",
+    "section": "What did these students do?",
+    "text": "What did these students do?\n\n\nMost didn’t\n\ncompare lots of methods\ndo very complicated analysis\nproduce an overly technical dissertation\nstate exactly what button they clicked and where\ndo an industry project or have an external partner to start with\n\n\nMost did\n\nclearly identify a problem - using literature and policy\nhave a well supported aim / research question and objectives that build towards them\nused 1-2 methods, sometimes in combination\nused slight variations of taught methods\nspecifically stated how this can contribute to answering / solving the problem in relation to local policy and Global goals\nshowed consideration of broader issues"
+  },
+  {
+    "objectID": "talks/week1.html#your-research-is",
+    "href": "talks/week1.html#your-research-is",
+    "title": "How to Write a Dissertation",
+    "section": "Your research is…",
+    "text": "Your research is…\n\nOriginal: you need to write the assignment in your own words in a way that tells a narrative through the existing research. Don’t just state what others have done\nCoherent: make your points in a logical, sequential manner with support from literature (or policy documents). Don’t just assume the reader knows what you are talking about.\nInsightful: show that you understand the methods, concepts and debates, and also how your analysis (or discussion) did or could add meaning in some way."
+  },
+  {
+    "objectID": "talks/week1.html#your-research-will",
+    "href": "talks/week1.html#your-research-will",
+    "title": "How to Write a Dissertation",
+    "section": "Your research will…",
+    "text": "Your research will…\n\nAddress a gap: identify and discuss the relevant existing work and lead the reader to the gap (and its importance)\nMake a contribution: once you’ve identified the gap, be specific throughout your thesis about what you are contributing.1\nBe novel: clearly say what is new; this could be a new method, a new study area, or a bit of both (or mix too).\n\nThis thesis attempts to combine these two datasets FOR THIS REASON…"
+  },
+  {
+    "objectID": "talks/week1.html#note-the-mark-scheme",
+    "href": "talks/week1.html#note-the-mark-scheme",
+    "title": "How to Write a Dissertation",
+    "section": "Note the mark scheme!",
+    "text": "Note the mark scheme!\n\nInterpretations of results are very well constructed, clear and focused with a well developed narrative throughout. The discussion provides appropriate critical reflections on the project’s outcomes, strengths and limitations with good links to relevant academic and policy (if applicable) debates."
+  },
+  {
+    "objectID": "talks/week1.html#the-research-question",
+    "href": "talks/week1.html#the-research-question",
+    "title": "How to Write a Dissertation",
+    "section": "The research question",
+    "text": "The research question\nThe central question to the thesis that you will try to answer\n\nHow might longitudinal census data and resale prices of residential properties lend insight into spatial patterns of potential neighbourhood gentrification prompted by conserved built heritage in Singapore?"
+  },
+  {
+    "objectID": "talks/week1.html#the-research-aim",
+    "href": "talks/week1.html#the-research-aim",
+    "title": "How to Write a Dissertation",
+    "section": "The research aim",
+    "text": "The research aim\nThe more specific you are with it the easier it will be to undertake your project1:\n\nThis paper aims to critically examine typologies of neighbourhood change in order to provide insight into different pathways of neighbourhood transition in Singapore, while constructing an effective visualisation of Singapore’s gentrification landscape to aid spatial targeting of policy-making.\n\nIs a broad statement of intent that you will try and achieve within your thesis, it may simply be the research question rephrased."
+  },
+  {
+    "objectID": "talks/week1.html#the-research-objectives",
+    "href": "talks/week1.html#the-research-objectives",
+    "title": "How to Write a Dissertation",
+    "section": "The research objectives",
+    "text": "The research objectives\nOften confused with research questions, but they are driven by the research question…1 For example:\n\nWhat features of the built environment are thought to influence pedestrian safety, and can our understanding of these relationships be strengthened?\n\nNote: singular."
+  },
+  {
+    "objectID": "talks/week1.html#smart-objectives",
+    "href": "talks/week1.html#smart-objectives",
+    "title": "How to Write a Dissertation",
+    "section": "SMART objectives",
+    "text": "SMART objectives\nResearch objectives are the set of measurable and specific goals you need to achieve your aim / research question. It’s good practice (but not essential) fto follow the S.M.A.R.T. format:\n\nSpecific\nMeasurable\nAchievable\nRelevant\nTime-Bound"
+  },
+  {
+    "objectID": "talks/week1.html#ultimately-what-are-you-selling",
+    "href": "talks/week1.html#ultimately-what-are-you-selling",
+    "title": "How to Write a Dissertation",
+    "section": "Ultimately: what are you selling?",
+    "text": "Ultimately: what are you selling?"
+  },
+  {
+    "objectID": "talks/week1.html#its-a-job",
+    "href": "talks/week1.html#its-a-job",
+    "title": "How to Write a Dissertation",
+    "section": "It’s a job",
+    "text": "It’s a job\n\nStudy in chunks: research a particular topic for a set amount of time - a day, two days, a week? Depending on how important that topic is to your dissertation\nPlan - what do you want to achieve today\nReflect - did you do it? why not? was it too ambitious? was the task bigger than you thought\nAdjust - use the new knowledge you’ve gained, can you now adjust your research question or topic even?\nIs it useful - do you need this? What is it contributing?\nDon’t read everything - there is so much out there, at some point you need to stop, when is that?"
+  },
+  {
+    "objectID": "talks/week1.html#organise-your-literature",
+    "href": "talks/week1.html#organise-your-literature",
+    "title": "How to Write a Dissertation",
+    "section": "Organise your literature",
+    "text": "Organise your literature\n\nChoose articles and book chapters over books.\nSkim the abstract, introduction and conclusion first.\nSave useful material (including the citation) to your computer as you go.\nWrite a summary of the literature as you read it.\nCopy out relevant quotes with page numbers as you read them."
+  },
+  {
+    "objectID": "talks/week1.html#organise-your-writing",
+    "href": "talks/week1.html#organise-your-writing",
+    "title": "How to Write a Dissertation",
+    "section": "Organise your writing",
+    "text": "Organise your writing\n\nStart each chapter with a paragraph setting out what you’re going to do.\nEnd each chapter with a couple of paragraphs summarising what you’ve done.\nMake use of headings / sub-headings / sub-sub-headings to organise a chapter.\nEach paragraph should focus on one concept / issue / method.\nEach section should focus on one set of related concepts / issues / methods.\nUse linking words such as ‘Conversely’, ‘Furthermore’, ‘However’ as appropriate.\nUse plain-English in preference to ‘academese’.\n\n\nYou will be editing this document daily, your marker won’t!\nGuide them through it!"
+  },
+  {
+    "objectID": "talks/week1.html#organise-your-analysis",
+    "href": "talks/week1.html#organise-your-analysis",
+    "title": "How to Write a Dissertation",
+    "section": "Organise your analysis",
+    "text": "Organise your analysis\n\nUse version control for everything!\nUse the README to track data/as a scratchpad.\nYou could also use GitHub Issues to track what needs doing.\nSeparate your analytical steps into discrete scripts/notebooks.\nEnsure outputs are clearly named and over-write previous versions1.\n\n\nRemember! You can write out tables as well as figures. In LaTeX these can be imported directly.\n\nNever rely on copy+paste."
+  },
+  {
+    "objectID": "talks/week1.html#organise-your-figurestables",
+    "href": "talks/week1.html#organise-your-figurestables",
+    "title": "How to Write a Dissertation",
+    "section": "Organise your figures/tables",
+    "text": "Organise your figures/tables\n\nAre they relevant to your argument?\nCan you summarise the figure or table in a sentence or two instead?\nWhat level of precision in your output do you need?\nAre they all referenced in the text?\nAre they clearly laid out?"
+  },
+  {
+    "objectID": "talks/week1.html#manage-your-time",
+    "href": "talks/week1.html#manage-your-time",
+    "title": "How to Write a Dissertation",
+    "section": "Manage your time",
+    "text": "Manage your time\n\nSend your supervisor work before meetings.1\nAsk questions the ‘right way’.2\nDo NOT try and do an internship at the same time.3\nKeep in touch with your supervisor…4\n\nThis is a condition to meet with me.See the How to Get Help section of the ‘CASA Computing Environment’ microsite.You risk violating the terms of your visa and failing your dissertation.If you disappear we have to report it to student support wellbeing and success advisers. Again, this can put your visa at risk."
+  },
+  {
+    "objectID": "talks/week1.html#reward-yourself",
+    "href": "talks/week1.html#reward-yourself",
+    "title": "How to Write a Dissertation",
+    "section": "Reward yourself",
+    "text": "Reward yourself\n\nAfter doing x, I will do y\nTalk to each other\nTake time out/off"
+  }
+]
